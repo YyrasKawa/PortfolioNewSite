@@ -7,6 +7,13 @@
         width: 535px;
         margin-top: 10px;
     }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+
+    }
     &__btns {
         margin-top: 25px;
         display: flex;
